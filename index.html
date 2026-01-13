@@ -497,13 +497,13 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <div class="logo">🔐 AI Security Research</div>
+                <div class="logo">OAIT - Cybersecurity Research</div>
                 <nav>
                     <ul class="nav-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#expertise">Expertise</a></li>
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#research">Research Areas</a></li>
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#expertise">Expertise</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -514,58 +514,143 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container fade-in">
-            <h1>Securing AI Systems &<br/>Building AI-Powered Security</h1>
-            <p>
-                Combining deep learning expertise with cybersecurity knowledge to protect medical AI systems 
-                and develop intelligent security solutions for critical infrastructure.
-            </p>
-            <div class="badge-container">
-                <span class="badge">🏆 Top 1% TryHackMe</span>
-                <span class="badge">🎓 IBM Certified Security Analyst</span>
-                <span class="badge">🔬 Medical AI Researcher @ NJIT</span>
-                <span class="badge">📊 IEEE Published</span>
+            <div style="text-align: left; max-width: 900px; margin: 0 auto;">
+                <div style="font-size: 0.9rem; color: var(--primary); font-weight: 600; letter-spacing: 1px; margin-bottom: 1rem;">
+                    THE OPEN AI TEAM (OAIT) • NJIT
+                </div>
+                <h1 style="text-align: left; font-size: 2.5rem;">AI Security & Cybersecurity Research</h1>
+                <p style="text-align: left; font-size: 1.1rem;">
+                    Securing medical AI systems for clinical deployment and developing AI-powered security 
+                    solutions for critical infrastructure. Research conducted by Nikunj Kantaria under the 
+                    supervision of Prof. Chengjun Liu at New Jersey Institute of Technology.
+                </p>
+            </div>
+            <div class="badge-container" style="justify-content: flex-start; max-width: 900px; margin: 2rem auto 0;">
+                <span class="badge">🛡️ AI Security</span>
+                <span class="badge">🤖 AI for Security</span>
+                <span class="badge">🏥 Medical AI Protection</span>
+                <span class="badge">⚡ Infrastructure Safety</span>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Overview Section -->
+    <section id="overview">
         <div class="container">
-            <h2 class="section-title">Research Focus</h2>
+            <h2 class="section-title">Research Overview</h2>
             <p class="section-subtitle">
-                At the intersection of Artificial Intelligence and Cybersecurity, developing secure AI systems 
-                and AI-powered security solutions for healthcare and critical infrastructure.
+                Bridging artificial intelligence and cybersecurity to address emerging security challenges 
+                in medical AI systems and critical infrastructure.
+            </p>
+            
+            <div style="background: rgba(30, 41, 59, 0.5); border-left: 4px solid var(--primary); padding: 2rem; margin-bottom: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
+                <h3 style="color: var(--primary); margin-bottom: 1rem;">Mission</h3>
+                <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem;">
+                    As medical AI systems move from research labs to clinical deployment, ensuring their security and 
+                    robustness becomes critical. Our research focuses on protecting AI models from adversarial attacks, 
+                    preserving patient privacy, and building AI-powered security tools for threat detection.
+                </p>
+                
+                <h3 style="color: var(--primary); margin-bottom: 1rem;">Current Focus</h3>
+                <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 0;">
+                    Working directly with OAIT's medical AI systems (breast cancer detection, Parkinson's diagnosis, 
+                    Alzheimer's detection) to implement security measures for clinical deployment. Simultaneously 
+                    developing computer vision-based security solutions for power line infrastructure monitoring.
+                </p>
+            </div>
+            
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="color: var(--text); margin-bottom: 1.5rem; font-size: 1.3rem;">Researcher Background</h3>
+                <div style="display: flex; gap: 2rem; align-items: start; flex-wrap: wrap;">
+                    <div style="flex-shrink: 0;">
+                        <img src="profile.jpg" alt="Nikunj Kantaria" style="width: 120px; height: 120px; border-radius: 12px; border: 2px solid var(--primary); object-fit: cover;">
+                    </div>
+                    <div style="flex: 1; min-width: 300px;">
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Nikunj Kantaria</h4>
+                        <p style="color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.95rem;">
+                            Graduate Research Assistant • Computer Science, NJIT
+                        </p>
+                        <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem;">
+                            MS Computer Science student with dual expertise in AI/ML and cybersecurity. IBM Certified 
+                            Cybersecurity Analyst ranked Top 1% on TryHackMe (3M+ users). Published 2 papers in IEEE 
+                            conferences on ML applications. Built production systems serving 4,700+ users and developed 
+                            OAIT's official research website. Combining deep learning expertise with cybersecurity 
+                            knowledge to secure AI systems and build AI-powered security solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas Section -->
+    <section id="research">
+        <div class="container">
+            <h2 class="section-title">Research Areas</h2>
+            <p class="section-subtitle">
+                Three interconnected research directions addressing security challenges in AI-driven systems
             </p>
             <div class="expertise-grid">
                 <div class="expertise-card">
-                    <h3>🛡️ AI Security</h3>
+                    <h3>🛡️ Securing AI Systems</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.7;">
+                        Protecting medical AI models and critical infrastructure AI from adversarial attacks and ensuring robustness for clinical deployment.
+                    </p>
                     <ul>
-                        <li>Adversarial machine learning defense</li>
-                        <li>Model robustness and hardening</li>
-                        <li>Privacy-preserving ML</li>
-                        <li>Securing medical AI systems</li>
-                        <li>Data poisoning prevention</li>
+                        <li>Adversarial attack defense for medical imaging models</li>
+                        <li>Model robustness testing and hardening</li>
+                        <li>Privacy-preserving machine learning</li>
+                        <li>Deepfake detection for medical data integrity</li>
+                        <li>Federated learning for healthcare collaboration</li>
                     </ul>
                 </div>
                 <div class="expertise-card">
-                    <h3>🤖 AI for Security</h3>
+                    <h3>🤖 AI-Powered Security</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.7;">
+                        Leveraging machine learning and deep learning to build intelligent security systems for threat detection and infrastructure monitoring.
+                    </p>
                     <ul>
-                        <li>ML-based intrusion detection</li>
-                        <li>Deep learning for malware analysis</li>
-                        <li>Anomaly detection systems</li>
-                        <li>Computer vision for surveillance</li>
-                        <li>LLM-powered threat intelligence</li>
+                        <li>Network intrusion detection using ML</li>
+                        <li>Malware classification with deep learning</li>
+                        <li>Anomaly detection in security logs</li>
+                        <li>Computer vision for infrastructure security</li>
+                        <li>LLM-based security log analysis</li>
                     </ul>
                 </div>
                 <div class="expertise-card">
-                    <h3>🔐 Applied Security</h3>
+                    <h3>🔐 Applied Cybersecurity</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.7;">
+                        Hands-on security expertise applied to evaluating and hardening AI systems and critical infrastructure.
+                    </p>
                     <ul>
-                        <li>Penetration testing & vulnerability assessment</li>
-                        <li>Network security & traffic analysis</li>
-                        <li>Incident response & forensics</li>
-                        <li>Threat intelligence analysis</li>
-                        <li>Secure ML deployment</li>
+                        <li>Penetration testing of ML systems</li>
+                        <li>Security operations and threat intelligence</li>
+                        <li>Incident response for AI systems</li>
+                        <li>Vulnerability assessment</li>
+                        <li>Secure deployment of production AI</li>
                     </ul>
+                </div>
+            </div>
+            
+            <!-- Key Achievements -->
+            <div style="margin-top: 4rem;">
+                <h2 class="section-title">Key Achievements</h2>
+                <div class="expertise-grid" style="margin-top: 2rem;">
+                    <div class="expertise-card" style="text-align: center;">
+                        <div style="font-size: 3rem; color: var(--primary); margin-bottom: 1rem;">4,700+</div>
+                        <h3>Users Served</h3>
+                        <p style="color: var(--text-secondary); margin-top: 0.5rem;">Production platform with 99.9% uptime</p>
+                    </div>
+                    <div class="expertise-card" style="text-align: center;">
+                        <div style="font-size: 3rem; color: var(--secondary); margin-bottom: 1rem;">2</div>
+                        <h3>IEEE Publications</h3>
+                        <p style="color: var(--text-secondary); margin-top: 0.5rem;">ICCES 2024 & ICESC 2024</p>
+                    </div>
+                    <div class="expertise-card" style="text-align: center;">
+                        <div style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;">Top 1%</div>
+                        <h3>TryHackMe Ranking</h3>
+                        <p style="color: var(--text-secondary); margin-top: 0.5rem;">Among 3+ million users globally</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -741,11 +826,11 @@
         </div>
     </section>
 
-    <!-- Certifications -->
-    <section id="certifications">
+    <!-- Credentials -->
+    <section id="expertise">
         <div class="container">
-            <h2 class="section-title">Certifications & Recognition</h2>
-            <p class="section-subtitle">Professional credentials demonstrating expertise in cybersecurity and AI</p>
+            <h2 class="section-title">Credentials & Recognition</h2>
+            <p class="section-subtitle">Professional certifications and achievements demonstrating cybersecurity expertise</p>
             
             <div class="cert-grid">
                 <div class="cert-card">
@@ -794,7 +879,7 @@
                 <div class="contact-card">
                     <div class="contact-icon">📧</div>
                     <h3>Email</h3>
-                    <a href="mailto:nikunjthakkar2003@gmail.com">nikunjthakkar2003@gmail.com</a>
+                    <a href="mailto:nikunj.webconnect@gmail.com">nikunj.webconnect@gmail.com</a>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">💼</div>
@@ -818,9 +903,12 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Nikunj Kantaria | AI Security Research @ NJIT | Top 1% TryHackMe | IBM Certified</p>
+            <p>&copy; 2026 The Open AI Team (OAIT) • New Jersey Institute of Technology</p>
             <p style="margin-top: 0.5rem; font-size: 0.9rem;">
-                Securing Medical AI Systems • Building AI-Powered Security Solutions
+                AI Security & Cybersecurity Research • Nikunj Kantaria, Graduate Research Assistant
+            </p>
+            <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-secondary);">
+                Supervisor: Prof. Chengjun Liu • Computer Science Department, NJIT
             </p>
         </div>
     </footer>
